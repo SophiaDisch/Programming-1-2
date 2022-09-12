@@ -6,5 +6,5 @@ num4 = int(input("Please enter the fourth number: "))
 sum = num1 + num2 + num3 + num4
 average = sum / 4
 
-print("\nThe sum is", sum)
-print("The average is", average)
+print("\nThe sum of the four numbers is", sum)
+print("\nThe average of the four numbers is", average)
