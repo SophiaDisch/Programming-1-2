@@ -23,6 +23,12 @@ class ktools:
   def pick(self):
     """Pick beeper"""
     pick_beeper()
+     
+  def pick2(self):
+    """Pick 2 beepers"""
+    pick_beeper()
+    move()
+    pick_beeper()
 
   def put(self):
     """Put beeper"""
