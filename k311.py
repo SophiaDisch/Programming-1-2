@@ -2,8 +2,8 @@ from stanfordkarel import *
 
 
 class ktools:
- """Shorthand for move"""
   def m(self):
+    """Shorthand for move"""
     move()
 
   def tl(self):
@@ -42,7 +42,7 @@ class ktools:
     self.move()
     self.put()
 
- def h(self):
+  def h(self):
     """Print H using beepers"""
     self.tl()
     self.put5()
@@ -140,7 +140,51 @@ class ktools:
 def main():
     """ Karel code goes here! """
     kt = ktools()
-  
+    kt.m()
+    kt.m()
+    kt.m()
+    kt.m()
+    kt.tl()
+    kt.m()
+    kt.m()
+    kt.m()
+    kt.m()
+    kt.put()
+    kt.tl()
+    kt.m()
+    kt.m()
+    kt.m()
+    kt.tr()
+    kt.m()
+    kt.tr()
+    kt.m()
+    kt.m()
+    kt.m()
+    kt.put()
+    kt.tl()
+    kt.m()
+    kt.m()
+    kt.m()
+    kt.tr()
+    kt.m()
+    kt.tr()
+    kt.m()
+    kt.m()
+    kt.m()
+    kt.put()
+    kt.tl()
+    kt.m()
+    kt.m()
+    kt.m()
+    kt.tr()
+    kt.m()
+    kt.tr()
+    kt.m()
+    kt.m()
+    kt.m()
+    kt.put()
+    kt.tl()
+    kt.m()
     pass
 
 
