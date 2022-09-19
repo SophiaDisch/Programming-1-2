@@ -2,8 +2,8 @@ from stanfordkarel import *
 
 
 class ktools:
- """Shorthand for move"""
   def m(self):
+    """Shorthand for move"""
     move()
 
   def tl(self):
@@ -37,9 +37,9 @@ class ktools:
   def put5(self):
     """Put five beepers in a line"""
     self.put2()
-    self.move()
+    self.m()
     self.put2()
-    self.move()
+    self.m()
     self.put()
 
  def h(self):
