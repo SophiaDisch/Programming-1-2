@@ -239,6 +239,27 @@ class ktools:
     self.tl()
     self.m()
 
+  def fic(self) -> bool:
+    """Front is clear"""
+    return front_is_clear()
+
+  def fib(self) -> bool:
+    """Front is blocked"""
+    return not self.fic()
+
+  def ric(self) -> bool:
+    """Right is clear"""
+    self.tr()
+    if self.fic():
+      self.tl()
+      return True  # Immediately leaves the function
+    self.tl()
+    return False
+  
+  def rib(self) -> bool:
+    """Right is blocked"""
+    return not self.ric()
+
 def main():
     """ Karel code goes here! """
     kt = ktools()

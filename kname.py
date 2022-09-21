@@ -242,7 +242,12 @@ class ktools:
 def main():
     """ Karel code goes here! """
     kt = ktools()
-  
+    kt.s()
+    kt.o()
+    kt.p()
+    kt.h()
+    kt.i()
+    kt.a()
     pass
 
 
