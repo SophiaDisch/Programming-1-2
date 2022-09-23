@@ -199,7 +199,7 @@ class ktools:
     self.tl()
 
   def i(self):
-    """Print I using beepers"""
+    """Print I or 1 using beepers"""
     self.tl()
     self.put2()
     self.m()
