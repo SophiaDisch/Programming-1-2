@@ -143,7 +143,7 @@ def main():
     kt.putm(5)
     kt.tl()
     kt.mm(2)
-    kt.om(4)
+    kt.om(9)
     pass
 
 
