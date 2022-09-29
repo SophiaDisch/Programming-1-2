@@ -108,6 +108,16 @@ class ktools:
     self.tl()
     self.m()
 
+  def rc(self):
+    """Right corner"""
+    self.tr()
+    self.m()
+
+  def lc(self):
+    """Left corner"""
+    self.tl()
+    self.m()
+
   def SOB(self) -> bool:
     """Standing on Beeper"""
     return beepers_present()
@@ -146,10 +156,16 @@ class ktools:
 def main():
     """ Karel code goes here! """
     kt = ktools()
+    kt.tl()
+    kt.mm(5)
+    kt.rc()
+    kt.putm(8)
+    kt.rc()
+    kt.putm(3)
+    kt.rc()
     kt.putm(7)
-    kt.tr()
-    kt.m()
-    kt.putm()
+    kt.rc()
+    kt.putm(2)
     pass
 
 
