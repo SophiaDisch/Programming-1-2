@@ -154,6 +154,15 @@ def main():
     kt.mm(4)
     kt.tl()
     kt.mm(4)
+    kt.pick()
+    kt.tl()
+    kt.m()
+    while kt.SOB():
+      kt.pick()
+    kt.ta()
+    kt.mm(2)
+    while kt.SOB():
+      kt.pick()
     pass
 
 
