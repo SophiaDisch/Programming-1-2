@@ -158,10 +158,28 @@ class ktools:
     for _ in range(num):
       self.jump()
 
+  def k511(self, num):
+    for _ in range(num):
+      self.jump()
+      while self.fic():
+        self.m()
+        if self.ric():
+          self.tr()
+      if self.fib():
+        self.tl()
+      while self.fic():
+        self.m()
+      if beepers_present():
+        self.pick()
+
 def main():
     """ Karel code goes here! """
     kt = ktools()
-  
+    kt.m()
+    kt.k511(3)
+    kt.jump()
+    kt.m()
+    kt.k511(1)
     pass
 
 
